@@ -1,0 +1,200 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  /* Float four columns side by side */
+  
+  #services .column {
+    float: left;
+    width: 25%;
+    padding: 30px 50px 35px 50px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  
+  #services .row {
+    margin: 0 -5px;
+    height: 33%;
+  }
+  /* Clear floats after the columns */
+  
+  #services .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  
+  @media screen and (max-width: 600px) {
+    #services .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  #services {
+    background-image: linear-gradient(
+      to top right,
+      rgb(7, 7, 7),
+      rgba(7, 7, 7, 7)
+    );
+  }
+  
+  #services .title {
+    color: red;
+  }
+  
+  #services .content {
+    color: blue;
+    text-align: justify;
+  }
+  
+  #services .head {
+    text-align: center;
+    font-family: "Merienda One";
+    font-size: xx-large;
+  }
+  
+  /* Style the counter cards */
+  
+  #services .card {
+    color: gray;
+    box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: 0.3s;
+    object-fit: cover;
+    background-color: rgba(7, 7, 7, 7);
+  }
+  
+  #services .card .card-body {
+    background-color: black;
+  }
+  
+  #services .card-body:hover {
+    box-shadow: 1px 2px 10px 2px #0097a1;
+  }
+  
+  #services .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+  }
+  #services .bg-primary {
+    background-color: #007bff !important;
+  }
+
+.navbar {
+    max-height: 80px;
+  }
+
+#news .card .card-title{
+    color: gray;
+    font-weight: bolder;
+}
+
+#news .card .card-body {
+    background-color: black;
+    
+}
+
+#news .bg-primary {
+    background-color: #007bff!important;
+}
+
+
+#news .card-body:hover{
+    box-shadow: 1px 2px 10px 2px #0097a1;
+}
+
+
+#news .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+#news p {
+    text-align:justify;  
+    text-justify:none;
+    font-weight: lighter;
+}
+#news h1{
+    color: whitesmoke;
+} 
+
+  #accessories .card .card-title{
+    color: gray;
+    font-weight: bolder;
+}
+
+#accessories .card .card-body {
+    background-color: black;
+    
+}
+
+#accessories .bg-primary {
+    background-color: #007bff!important;
+}
+
+
+#accessories .card-body:hover{
+    box-shadow: 1px 2px 10px 2px #0097a1;
+}
+
+
+#accessories .card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+#accessories p {
+    text-align:justify;  
+    text-justify:none;
+    font-weight: lighter;
+    color: whitesmoke;
+}
+
+#home body {
+    background-color: black;
+}
+
+#home .one {
+    margin-top: 30px;
+}
+
+#home .two {
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#home .card {
+    background-color: black;
+}
+
+
+#home .card .card-body {
+    background-color: black;
+}
+
+#home .card-body:hover{
+    box-shadow: 1px 2px 10px 2px #0097a1;
+}
+
+
+#home .content {
+    color: white;
+}
+
+#home .c {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
